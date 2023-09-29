@@ -9,6 +9,7 @@ body {
     width: 100%;
     margin: 0;
 }
+
 .container {
     display: flex;
     flex-direction: column; 
@@ -52,12 +53,6 @@ body {
     flex-wrap: wrap;
 }
 
-/* .profile-image {
-    width: 135px;
-    height: 135px;
-    border-radius: 50%;
-}  */
-
 @font-face {
     font-family: myFirstFont;
     src: url(/docs/font/TSUMUGI-Regular.otf);
@@ -67,25 +62,18 @@ body {
     color: white;
     font-family: myFirstFont;
     align-items: center;
-    flex-direction: column;
-    display: flex; 
-}
-
-.header-text {
+    margin: 1rem;
     font-size: 100px;
 }
 
 .header-text-two {
-    font-size: 10px;
+    font-size: 0.9rem;
     color: white;
     font-family: mySecondFont;
-    align-items: center;
-    flex-direction: column;
-    display: flex; 
 }
 
 .social {
-    min-height: 10vh;
+    margin: 1rem;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -97,15 +85,32 @@ body {
 
 .icon {
     margin: 1rem;
+
 }
 
 .icon:hover {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
+.about {
+    display: flex;
+    flex-direction: row;
+}
 
-@media only screen and (max-width: 600px) {
-    .header {
-        align-self: center;
-    }
+ .about-hero {
+    height: 100vh;
+    width: 50vw;
+    background-color: #EEF0E9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img {
+    background-image: url(/docs/images/jake.jpg);
+    height:100vh;
+    width: 50vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
