@@ -19,7 +19,7 @@
 a:link {
     text-decoration: none;
     font-family: lato, bree;
-    color: darkslategrey;
+    color: rgb(38, 62, 111);
     font-size: 1rem;
     display: flex;
     margin: 10px;
@@ -47,9 +47,27 @@ a:link {
     border-radius: 0%;
 } */
 
-.header-text, .header-text-two {
+@font-face {
+    font-family: myFirstFont;
+    src: url(/docs/images/TSUMUGI-Regular.otf);
+}
+ 
+.header-text {
     color: white;
-    font-family: lato;
+    font-family: myFirstFont;
+    align-items: center;
+    flex-direction: column;
+    display: flex; 
+}
+
+.header-text {
+    font-size: 100px;
+}
+
+.header-text-two {
+    font-size: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-items: center;
     flex-direction: column;
     display: flex; 
