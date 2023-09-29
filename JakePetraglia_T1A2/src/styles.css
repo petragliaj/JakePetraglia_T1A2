@@ -4,32 +4,43 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
 .container {
     display: flex;
-    flex-direction: column;
-    height: 100vh;
+    flex-direction: column; 
+    overflow: hidden;
 }
 
 .navbar {
     display: flex;
-    flex-direction: row;
-    float: right;
+    justify-content: space-evenly;
+    min-height: 5vh;
 }
 
-a:link {
+.link {
     text-decoration: none;
-    font-family: lato, bree;
+    font-family: mySecondFont;
     color: rgb(38, 62, 111);
     font-size: 1rem;
-    display: flex;
-    margin: 10px;
-    justify-content: space-between;
-    float: right;
+    margin: 1rem;
+}
+
+.link:hover {
+    opacity: 0.3;
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(/docs/font/YoungSerif-Regular.ttf);
 }
 
 .header {
     background-image: url(/docs/images/hero-image.png);
-    height: 90vh;
+    min-height: 85vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,12 +55,12 @@ a:link {
 /* .profile-image {
     width: 135px;
     height: 135px;
-    border-radius: 0%;
-} */
+    border-radius: 50%;
+}  */
 
 @font-face {
     font-family: myFirstFont;
-    src: url(/docs/images/TSUMUGI-Regular.otf);
+    src: url(/docs/font/TSUMUGI-Regular.otf);
 }
  
 .header-text {
@@ -67,23 +78,34 @@ a:link {
 .header-text-two {
     font-size: 10px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: mySecondFont;
     align-items: center;
     flex-direction: column;
     display: flex; 
 }
 
 .social {
-    display: flex;
+    min-height: 10vh;
     background-color: white;
-    justify-content: center;
-    height: 10vh;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
+.icon {
+    margin: 1rem;
+}
+
+.icon:hover {
+    opacity: 0.9;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header {
+        align-self: center;
+    }
 }
