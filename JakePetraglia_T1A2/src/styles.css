@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -19,4 +25,47 @@ a:link {
     margin: 10px;
     justify-content: space-between;
     float: right;
+}
+
+.header {
+    background-image: url(/docs/images/hero-image.png);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* .profile-image {
+    width: 135px;
+    height: 135px;
+    border-radius: 0%;
+} */
+
+.header-text, .header-text-two {
+    color: white;
+    font-family: lato;
+    align-items: center;
+    flex-direction: column;
+    display: flex; 
+}
+
+.social {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    height: 10vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
 }
