@@ -71,14 +71,20 @@ body {
 }
 
 .social {
-    margin: 1rem;
+    margin: 0.7rem;
     background-color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
 
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .icon {
@@ -237,4 +243,171 @@ body {
     }
 }
 
+
+.blog-hero {
+    height: 100%;
+    width: 100%;
+    background-image: url(/docs/images/blog-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: mySecondFont;
+}
+
+.blog-one {
+    background-color: rgba(188, 188, 188, 0.3);
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.blog-heading {
+    font-family: myFirstFont;
+    font-size: 3rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.image, .blog-text {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    width: 500px; 
+    height: auto;
+}
+
+.blog-two {
+    background-color: rgba(188, 188, 188, 0.3);
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+
+.blog-three {
+    background-color: rgba(188, 188, 188, 0.3);
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+
+.blog-four {
+    background-color: rgba(188, 188, 188, 0.3);
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+.blog-five {
+    background-color: rgba(188, 188, 188, 0.3);
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+
+.content-hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/docs/images/contact-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: mySecondFont;
+}
+
+.content {
+    background-color: rgba(188, 188, 188, 0.5);
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 1.5rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.content-heading {
+    font-family: myFirstFont;
+    font-size: 5rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.content-text, .icon {
+    font-family: mySecondFont;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
