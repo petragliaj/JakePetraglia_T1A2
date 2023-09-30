@@ -104,8 +104,46 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    
+    font-family: mySecondFont;
+}
+
+.intro {
+    background-color: rgba(188, 188, 188, 0.3);
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.intro-heading {
+    font-family: myFirstFont;
+    font-size: 3rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.jake, .intro-text {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.jake {
+    max-width: 100%;
+    width: 500px; 
+    height: auto;
 }
 
 .bio {
@@ -116,25 +154,39 @@ body {
     color: white;
     width: 80%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 .bio-heading {
     font-family: myFirstFont;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1rem;
     overflow: hidden;
 }
 
-.bio-text {
-    font-size: 1.5rem;
+.bio-text, .intro-text, .hobby-text {
+    font-size: 1rem;
 }
 
-.education {
+.cat, .bio-text {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 1rem 1rem;
+    padding: 1rem;
+}
+
+.cat {
+    max-width: 100%;
+    height: auto; 
+    width: 500px;
+}
+
+.hobby {
     background-color: rgba(188, 188, 188, 0.3);
     border-radius: 1%;
     overflow: hidden;
@@ -146,47 +198,43 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 2rem;
+    flex-direction: column;
 }
 
-.edu-heading {
+.hobby-heading {
     font-family: myFirstFont;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1rem;
     overflow: hidden;
 }
 
-.edu-text {
-    font-size: 1.5rem;
+.arcade {
+    max-width: 100%;
+    height: auto; 
+    width: 500px;
 }
 
-.work {
-    background-color: rgba(188, 188, 188, 0.3);
-    border-radius: 1%;
-    overflow: hidden;
-    padding: 1rem;
-    color: white;
-    width: 80%;
+.arcade, .hobby-text {
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse;
     align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
+    margin: 1rem 1rem;
+    padding: 1rem;
 }
 
-.work-heading {
-    font-family: myFirstFont;
-    font-size: 4rem;
-    margin: 1rem;
-    overflow: hidden;
-}
 
-.work-text {
-    font-size: 1.5rem;
-}
+@media only screen and (max-width:600px) {
+     .jake {
+        width: 100%;
+    }
 
-@media only screen and (min-width: 530px) {
-    .about-hero {
-        height: 100vh;
-        width: 100vw;
+    .cat {
+        width: 100%;
+    }
+
+    .arcade {
+        width: 100%;
     }
 }
+
+
