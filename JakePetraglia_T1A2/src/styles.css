@@ -165,8 +165,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 .bio-heading {
@@ -174,24 +174,17 @@ body {
     font-size: 3rem;
     margin: 1rem;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.list-heading {
+    display: flex;
+    justify-content: center;
 }
 
 .bio-text, .intro-text, .hobby-text {
     font-size: 1rem;
-}
-
-.cat, .bio-text {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    margin: 1rem 1rem;
-    padding: 1rem;
-}
-
-.cat {
-    max-width: 100%;
-    height: auto; 
-    width: 500px;
 }
 
 .hobby {
@@ -207,6 +200,7 @@ body {
     flex-wrap: wrap;
     margin-bottom: 2rem;
     flex-direction: column;
+    text-align: center;
 }
 
 .hobby-heading {
@@ -214,6 +208,7 @@ body {
     font-size: 3rem;
     margin: 1rem;
     overflow: hidden;
+    
 }
 
 .arcade {
@@ -427,7 +422,7 @@ body {
     align-items: center;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .contact-links{
         flex-direction: column;
 
