@@ -20,6 +20,11 @@ body {
     display: flex;
     justify-content: space-evenly;
     min-height: 5vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
 }
 
 .link {
@@ -41,7 +46,7 @@ body {
 
 .header {
     background-image: url(/docs/images/hero-image.png);
-    min-height: 85vh;
+    min-height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +54,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 @font-face {
@@ -61,7 +65,7 @@ body {
     color: white;
     font-family: myFirstFont;
     margin: 1rem;
-    font-size: 100px;
+    font-size: 6rem;
 }
 
 .header-text-two {
@@ -71,25 +75,23 @@ body {
 }
 
 .social {
-    margin: 0.7rem;
     background-color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin: 1rem;
 }
 
 .footer-copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
 }
 
 .icon {
     margin: 1rem;
-
 }
 
 .icon:hover {
@@ -383,31 +385,53 @@ body {
 }
 
 .content {
-    background-color: rgba(188, 188, 188, 0.5);
+    background-color: rgba(188, 188, 188, 0.3);
     border-radius: 1%;
     overflow: hidden;
-    padding: 1.5rem;
+    padding: 1rem;
     color: white;
     width: 80%;
     display: flex;
     flex-direction: column;;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin: 2rem 0;
 }
 
 .content-heading {
     font-family: myFirstFont;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 1rem;
     overflow: hidden;
 }
 
-.content-text, .icon {
-    font-family: mySecondFont;
-    font-size: 1rem;
+.image, .content-text {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    width: 500px; 
+    height: auto;
+}
+
+.contact-links {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 400px) {
+    .contact-links{
+        flex-direction: column;
+
+    }
+}
+
 
