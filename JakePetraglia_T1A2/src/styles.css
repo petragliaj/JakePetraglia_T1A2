@@ -401,13 +401,12 @@ body {
     overflow: hidden;
 }
 
-.image, .content-text {
+.image, .contact-text {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin: 1rem 1rem;
-    padding: 1rem;
     text-align: center;
+    font-family: mySecondFont;
 }
 
 .image {
@@ -422,10 +421,10 @@ body {
     align-items: center;
 }
 
+
 @media only screen and (max-width: 500px) {
     .contact-links{
         flex-direction: column;
-
     }
 }
 
