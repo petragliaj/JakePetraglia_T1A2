@@ -45,7 +45,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +60,6 @@ body {
 .header-text {
     color: white;
     font-family: myFirstFont;
-    align-items: center;
     margin: 1rem;
     font-size: 100px;
 }
@@ -92,78 +90,103 @@ body {
     opacity: 0.8;
 }
 
-.about-container {
-    overflow: hidden;
-}
-
  .about-hero {
-    height: 95vh;
+    height: 100%;
+    width: 100%;
     background-image: url(/docs/images/about-background.png);
-    position: relative;
-    display: flex;
-    justify-content: center;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.about-content {
+.about-container {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1rem;
-
-}
-
-.right-container {
-    margin: 1rem 2rem;
-}
-
-.left-container {
-    margin: 1rem 2rem;
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    word-wrap: break-word;  
+    
 }
 
-.jake {
-    height: 50%;
-    width: rcap;
-}
-
-.description {
-    height: 70vh;
-    width: 40vw;
-    color: white;
-    background-color: black;
-    opacity: 0.5;
-    border-radius: 10%;
-    justify-content: center;
+.bio {
+    background-color: rgba(188, 188, 188, 0.3);
+    border-radius: 1%;
     overflow: hidden;
     padding: 1rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+.bio-heading {
+    font-family: myFirstFont;
+    font-size: 4rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.bio-text {
+    font-size: 1.5rem;
 }
 
 .education {
-        height: 40vh;
-        width: 30vw;
-        color: white;
-        background-color: black;
-        opacity: 0.5;
-        margin-bottom: 2rem;
-        border-radius: 10%;
+    background-color: rgba(188, 188, 188, 0.3);
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
 
-    }
+.edu-heading {
+    font-family: myFirstFont;
+    font-size: 4rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.edu-text {
+    font-size: 1.5rem;
+}
 
 .work {
-        height: 40vh;
-        width: 30vw;
-        color: white;
-        background-color: black;
-        opacity: 0.5;
-        border-radius: 10%;
+    background-color: rgba(188, 188, 188, 0.3);
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.work-heading {
+    font-family: myFirstFont;
+    font-size: 4rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.work-text {
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 530px) {
+    .about-hero {
+        height: 100vh;
+        width: 100vw;
     }
-      
-     
-@font-face {
-    font-family: myThirdFont;
-    src: url(/docs/font/LibreBaskerville-Regular.ttf);
 }
