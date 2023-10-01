@@ -81,13 +81,15 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 0.2rem;
+    margin: 0.8rem;
 }
 
 .footer-copyright {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: mySecondFont;
+    margin-top: 0.2rem;
 }
 
 .icon {
@@ -408,6 +410,7 @@ body {
     text-align: center;
     font-family: mySecondFont;
 }
+
 
 .image {
     max-width: 100%;

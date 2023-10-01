@@ -34,7 +34,7 @@ The target audience is for potential employers and recruiters to take a look at 
 
 ![Sitemap](/docs/sitemap.png)
 
-## Wireframes
+## Wireframe
 
 Homepage
 
@@ -72,4 +72,4 @@ Contact page Mobile<br>
 - Website Semantic HTML and CSS
 - Wireframes [figma](https://www.figma.com/)
 - Deployment [Vercel](https://vercel.com/)
-- Slide deck [Canava](https://www.canva.com/en_au/)
+- Slide deck [Canva](https://www.canva.com/en_au/)
