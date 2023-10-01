@@ -72,6 +72,7 @@ Contact page Mobile<br>
 - Website Semantic HTML and CSS
 - Wireframes [figma](https://www.figma.com/)
 - Deployment [Vercel](https://vercel.com/)
+- Sitemap [Sitemap](https://milanote.com/)
 - Slide deck [Canva](https://www.canva.com/en_au/)
 - Image Assets [Unsplash](https://www.unsplash.com)
 - Icon Assets [Iconmonstr](https://iconmonstr.com/)
