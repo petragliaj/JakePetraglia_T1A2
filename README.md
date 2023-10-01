@@ -9,14 +9,14 @@
 
 ## Purpose of Assignment
 
-Research, plan and publish my own personal portfolio website using the skills I've learnt throughtout the first few weeks of the bootcamp. 
+Research, plan and publish my own personal portfolio website using the skills I've learnt throughout the first few weeks of the boot-camp. 
 
 
 ## Functionality & Features
 
 A fully responsive website across all devices that utilises both semantic and non semantic HTML and CSS to convey my design choices and aesthetic. 
 
-I've chosen to go with a colourful yet minimalistc approach for the flow of my website. I wanted the user to be able to seemlessly move from page to page with the use of my navbar and clearly define each page with the use of background image elements. 
+I've chosen to go with a colourful yet minimalistic approach for the flow of my website. I wanted the user to be able to seemlessly move from page to page with the use of my navbar and clearly define each page with the use of background image elements. 
 
 The website contains four web pages; the Home, About, Blog and contact. 
 
