@@ -2,8 +2,8 @@
 
 ### Author: Jake Petraglia
 
-[Published Portfolio Website](https://jake-petraglia.vercel.app/index.html)
-[Github Repository](https://github.com/petragliaj/JakePetraglia_T1A2)
+[Published Portfolio Website](https://jake-petraglia.vercel.app/index.html)<br>
+[Github Repository](https://github.com/petragliaj/JakePetraglia_T1A2)<br>
 [Presentation](https://www.canva.com/design/DAFv_Twj7Lw/KHEIU3cqDWqgJRoCzs5uOA/edit?utm_content=DAFv_Twj7Lw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
