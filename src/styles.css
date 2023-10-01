@@ -16,6 +16,9 @@ body {
     overflow: hidden;
 }
 
+/* Navigation component that is applied to each page at a fixed position,
+so that it will stick with the user as they scroll through the page */
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -74,6 +77,8 @@ body {
     font-family: mySecondFont;
 }
 
+/* Footer component for the homepage so the user can easily access my socials */
+
 .social {
     background-color: white;
     display: flex;
@@ -119,44 +124,9 @@ body {
     font-family: mySecondFont;
 }
 
-.intro {
-    background-color: rgba(188, 188, 188, 0.3);
-    border-radius: 1%;
-    overflow: hidden;
-    padding: 1rem;
-    color: white;
-    width: 80%;
-    display: flex;
-    flex-direction: column;;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 2rem 0;
-}
+/* component for each section of my about page */
 
-.intro-heading {
-    font-family: myFirstFont;
-    font-size: 3rem;
-    margin: 1rem;
-    overflow: hidden;
-}
-
-.jake, .intro-text {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    margin: 1rem 1rem;
-    padding: 1rem;
-    text-align: center;
-}
-
-.jake {
-    max-width: 100%;
-    width: 500px; 
-    height: auto;
-}
-
-.bio {
+.intro, .hobby, .bio {
     background-color: rgba(188, 188, 188, 0.3);
     border-radius: 1%;
     overflow: hidden;
@@ -167,17 +137,39 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
-    padding: 2rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
 }
 
-.bio-heading {
+.intro-heading, .bio-heading, .hobby-heading {
     font-family: myFirstFont;
     font-size: 3rem;
     margin: 1rem;
     overflow: hidden;
+}
+
+/* text component */
+ 
+.jake, .intro-text {
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* image component for my introduction */
+
+.jake {
+    max-width: 100%;
+    width: 500px; 
+    height: auto;
+}
+
+.work-study-list {
+    list-style-position: inside;
 }
 
 .list-heading {
@@ -189,35 +181,15 @@ body {
     font-size: 1rem;
 }
 
-.hobby {
-    background-color: rgba(188, 188, 188, 0.3);
-    border-radius: 1%;
-    overflow: hidden;
-    padding: 1rem;
-    color: white;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
-    flex-direction: column;
-    text-align: center;
-}
-
-.hobby-heading {
-    font-family: myFirstFont;
-    font-size: 3rem;
-    margin: 1rem;
-    overflow: hidden;
-    
-}
+/* image component for my hobby container */
 
 .arcade {
     max-width: 100%;
     height: auto; 
     width: 500px;
 }
+
+/* text component for hobby container */
 
 .arcade, .hobby-text {
     display: flex;
@@ -227,6 +199,7 @@ body {
     padding: 1rem;
 }
 
+/* media breakpoint so that it's responsive for mobile */
 
 @media only screen and (max-width:600px) {
      .jake {
@@ -262,6 +235,8 @@ body {
     font-family: mySecondFont;
 }
 
+/* blog component containing a blog post, each blog post has their own */
+
 .blog-one {
     background-color: rgba(188, 188, 188, 0.3);
     border-radius: 1%;
@@ -292,6 +267,8 @@ body {
     padding: 1rem;
     text-align: center;
 }
+
+/* image component for each blog post, there are five images in total */
 
 .image {
     max-width: 100%;
