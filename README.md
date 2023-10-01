@@ -74,3 +74,4 @@ Contact page Mobile<br>
 - Deployment [Vercel](https://vercel.com/)
 - Slide deck [Canva](https://www.canva.com/en_au/)
 - Image Assets [Unsplash](https://www.unsplash.com)
+- Icon Assets [Iconmonstr](https://iconmonstr.com/)
