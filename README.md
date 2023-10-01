@@ -1,5 +1,5 @@
 # T1A2 Portfolio Assignment
----
+
 ### Author: Jake Petraglia
 
 [Published Portfolio Website](https://jake-petraglia.vercel.app/index.html)
@@ -7,12 +7,12 @@
 
 
 ## Purpose of Assignment
----
+
 Research, plan and publish my own personal portfolio website using the skills I've learnt throughtout the first few weeks of the bootcamp. 
 
 
 ## Functionality & Features
----
+
 A fully responsive website across all devices that utilises both semantic and non semantic HTML and CSS to convey my design choices and aesthetic. 
 
 I've chosen to go with a colourful yet minimalistc approach for the flow of my website. I wanted the user to be able to seemlessly move from page to page with the use of my navbar and clearly define each page with the use of background image elements. 
@@ -27,48 +27,48 @@ These pages consist of:
 - Contact: A simple contact page that directs you to my Linkedin profile, github and my most recent resume. 
 
 ## Target Audience 
----
+
 The target audience is for potential employers and recruiters to take a look at my portfolio website that showcases my understanding of html and css in web development. 
 
 ## Sitemap 
----
+
 ![Sitemap](/docs/sitemap.png)
 
 ## Wireframes
----
+
 Homepage
 
 ![home](/docs/wireframe.png)
 
 ## Screenshots
----
-Homepage
+
+Homepage<br>
 ![Home Desktop](/docs/home-screenshot.png)
 
-Homepage Mobile
+Homepage Mobile<br>
 ![Home Desktop Mobile](/docs/home-mobile.png)
 
-About page
+About page<br>
 ![About](/docs/about-screenshot.png)
 
-About page Mobile
+About page Mobile<br>
 ![About Mobile](/docs/about-mobile.png)
 
-Blog page
+Blog page<br>
 ![Blog](/docs/blog-screenshot.png)
 
-Blog page Mobile
+Blog page Mobile<br>
 ![Blog Mobile](/docs/blog-mobile.png)
 
-Contact page
+Contact page<br>
 ![Contact Page](/docs/contact-screenshot.png)
 
-Contact page Mobile
+Contact page Mobile<br>
 ![Contact Page Mobile](/docs/contact-mobile.png)
 
 
 ## Tech Stack
----
+
 - Website Semantic HTML and CSS
 - Wireframes [figma](https://www.figma.com/)
 - Deployment [Vercel](https://vercel.com/)
