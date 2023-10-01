@@ -47,6 +47,8 @@ so that it will stick with the user as they scroll through the page */
     src: url(./assets/font/MavenPro-VariableFont_wght.ttf);
 }
 
+/* hero component with a background image and styling */
+
 .header {
     background-image: url(./assets/hero-image.png);
     min-height: 90vh;
